@@ -1,0 +1,15 @@
+{
+  "name": "r201901_ex1",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "./node_modules/.bin/cucumber-js",
+    "test-json": "./node_modules/.bin/cucumber-js --format=json",
+    "test-create": "./node_modules/.bin/cucumber-js --tags @create-transaction"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "cucumber": "^6.0.5"
+  }
+}
